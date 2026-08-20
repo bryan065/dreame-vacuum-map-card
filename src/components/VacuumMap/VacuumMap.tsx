@@ -202,7 +202,7 @@ export function VacuumMap({
             disabled: isMapLocked,
           }}
           pinch={{
-            step: 0.5,
+            step: 1.0,
             disabled: isMapLocked,
           }}
           panning={{
