@@ -198,11 +198,9 @@ export function VacuumMap({
           centerZoomedOut={false}
           limitToBounds={false}
           wheel={{
-            step: 0.05,
             disabled: isMapLocked,
           }}
           pinch={{
-            step: 0.5,
             disabled: isMapLocked,
           }}
           panning={{
